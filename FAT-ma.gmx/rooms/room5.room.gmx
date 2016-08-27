@@ -3,8 +3,8 @@
   <caption></caption>
   <width>512</width>
   <height>800</height>
-  <vsnap>32</vsnap>
-  <hsnap>102</hsnap>
+  <vsnap>1</vsnap>
+  <hsnap>1</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -30,7 +30,7 @@
     <yoffset>0</yoffset>
   </makerSettings>
   <backgrounds>
-    <background visible="-1" foreground="0" name="back_run" x="0" y="0" htiled="0" vtiled="0" hspeed="0" vspeed="0" stretch="0"/>
+    <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
     <background visible="0" foreground="0" name="" x="0" y="0" htiled="-1" vtiled="-1" hspeed="0" vspeed="0" stretch="0"/>
@@ -51,29 +51,14 @@
   </views>
   <instances>
     <instance objName="obj_marun" x="279" y="253" name="inst_CEE7686D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="3" y="760" name="inst_54A32452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="106" y="760" name="inst_10C236DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="413" y="760" name="inst_977719A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="208" y="760" name="inst_0AA283D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="310" y="760" name="inst_DF3C5A22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="154" y="147" name="inst_8804892A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="0" y="0" name="inst_9E48C05B" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="102" y="0" name="inst_7F9F7101" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="204" y="0" name="inst_67E8894F" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="306" y="0" name="inst_40D0C074" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="0" y="352" name="inst_3DE984FA" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="306" y="352" name="inst_58107A3F" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="408" y="352" name="inst_92DE2B5F" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="408" y="0" name="inst_7B3555F3" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="204" y="352" name="inst_F871537A" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="102" y="352" name="inst_910CE183" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="0" y="576" name="inst_D2FDB0C7" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="204" y="448" name="inst_2B39FDAE" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spawn_corrida" x="408" y="192" name="inst_6CF07D3A" locked="0" code="on=false;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_rigth" x="327" y="753" name="inst_9C4E32A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="btn_left" x="154" y="753" name="inst_1E3EFBC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn_corrida" x="4" y="768" name="inst_54A32452" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn_corrida" x="107" y="766" name="inst_10C236DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn_corrida" x="188" y="73" name="inst_977719A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn_corrida" x="306" y="771" name="inst_0AA283D6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spawn_corrida" x="410" y="772" name="inst_DF3C5A22" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_malife" x="124" y="229" name="inst_A09F825A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="btn_rigth" x="327" y="754" name="inst_9C4E32A7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="btn_left" x="154" y="755" name="inst_1E3EFBC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_back" x="27" y="745" name="inst_3C9D3AEE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
