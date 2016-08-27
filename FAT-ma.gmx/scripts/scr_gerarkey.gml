@@ -1,0 +1,22 @@
+global.key1="";
+global.key1[0]=irandom_range(5,10);
+global.key1[1]=irandom(9);
+global.key1[2]=irandom(5);
+global.key1[3]=irandom_range(20,32);
+global.key1[4]=irandom_range(5,30);
+global.key1[5]=irandom(1);
+global.key1[6]=irandom(151);
+global.key1[7]=irandom_range(50,255);
+global.key1[8]=irandom(3);
+global.key1[9]=0;
+
+key2="";
+for(a=0;a<global.key1[3];a++){
+   global.key2[a]=irandom(global.key1[7]);
+}
+       ini_open("flybird.ini");
+       ini_key_delete("Config","Crypt2");
+       ini_key_delete("Config","Crypt1");
+       ini_write_string("Config","Crypt2",string(global.key2));
+       ini_write_string("Config","Crypt1",string(global.key1));
+       ini_close();
