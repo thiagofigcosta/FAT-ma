@@ -19,6 +19,6 @@
   <width>128</width>
   <height>48</height>
   <frames>
-    <frame index="0">images\spr_facebook_0.png</frame>
+    <frame index="0">images\spr_btn_imc_0.png</frame>
   </frames>
 </sprite>
